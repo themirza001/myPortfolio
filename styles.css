@@ -1,0 +1,605 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* html{
+    font-size:62.5%;
+    
+}box-s */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  padding: 0 6rem;
+  z-index: 100;
+  background-color: #31304d;
+  /* background-color: #b6bbc4; */
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  /* justify-content: space-around; */
+  gap: 30px;
+}
+.nav-link:link,
+.nav-link:visited {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-decoration: none;
+  display: block;
+  color: #f0ece5;
+}
+/* .header {
+  padding: 0 3rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+/* hero section */
+.hero {
+  width: 100%;
+  height: 650px;
+  background-color: #b6bbc4;
+  padding-top: 100px;
+}
+.intro {
+  font-size: 120px;
+  margin-left: 900px;
+  font-family: "Poppins", sans-serif;
+}
+.hi {
+  margin-left: 1050px;
+}
+/* about me */
+.about-me {
+  width: 100%;
+  height: 100vh;
+  background-color: #31304d;
+}
+.upper-div {
+  width: 100%;
+  height: 150px;
+  padding-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+.vertical {
+  width: 5px;
+  height: 100px;
+  background-color: red;
+  margin-left: 30px;
+  margin-top: 15px;
+  border-radius: 100px;
+}
+.info {
+  font-size: 80px;
+  margin-top: 10px;
+}
+.lower-div {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  padding-left: 30px;
+  /* margin-left: 30px;
+  margin-right: 30px; */
+}
+.my-icon {
+  background-color: black;
+  padding: 5px;
+  height: 450px;
+  width: 300px;
+}
+.content {
+  width: 1150px;
+}
+.info1 {
+  font-size: 32px;
+}
+
+.info2 {
+  padding-top: 60px;
+}
+
+.opt {
+  display: flex;
+  justify-content: space-between;
+}
+.opt li {
+  list-style: none;
+}
+.icon {
+  display: inline;
+  height: 40px;
+  width: 40px;
+}
+.lst {
+  display: flex;
+  gap: 5px;
+}
+.abt {
+  font-size: 30px;
+}
+.btn-icon {
+  width: 30px;
+  height: 30px;
+}
+.btn {
+  height: 80px;
+  width: 300px;
+  background-color: blue;
+  margin-left: 50px;
+  margin-top: 63px;
+}
+.download-text {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/* eduction-section */
+.edu {
+  position: relative;
+}
+/* .edu-dates {
+  width: 1px;
+} */
+.elem {
+  display: flex;
+  transform-origin: 0% 50%;
+  transform: rotate(90deg);
+  /* translate: -600px 0px; */
+  /* width: 40px; */
+  translate: 360px -690px;
+  width: 600px;
+}
+
+.badaCircle {
+  /* // display: relative; */
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.line {
+  width: 200px;
+  height: 2px;
+  background-color: black;
+  margin-top: 20px;
+}
+.new_line {
+  width: 50px;
+  height: 2px;
+  background-color: black;
+  margin-top: 20px;
+}
+/* .edu-info {
+  height: 620px;
+  width: 600px;
+  background-color: black;
+} */
+.edu-dates {
+  width: 300px;
+  height: 700px;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.study-info {
+  height: 100px;
+  width: 150px;
+  background-color: grey;
+}
+.tring {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: grey;
+  right: 65px;
+  rotate: 45deg;
+  /* border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px; */
+  /* position: relative; */
+}
+/* .tring::before {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 10px solid p;
+} */
+.tring1 {
+  top: 100px;
+}
+.tring3 {
+  bottom: 120px;
+}
+.edu-info {
+  width: 1000px;
+  height: 700px;
+  background-color: cadetblue;
+  position: absolute;
+  right: 50px;
+  top: 0;
+}
+.educ {
+  width: 100%;
+  height: 233px;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+}
+.time {
+  height: 40px;
+  width: 100px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+.edu-name {
+  height: 35px;
+  width: 150px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5%;
+}
+.edu-para {
+  margin-top: 3%;
+}
+/* skill-section */
+
+.skill-sec {
+  width: 100%;
+  height: 100vh;
+  background-color: cadetblue;
+}
+.skill-info {
+  width: 100%;
+  height: 18%;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill-set {
+  width: 100%;
+  height: 82%;
+  background-color: cornflowerblue;
+  display: flex;
+}
+.skill-left {
+  width: 55%;
+  background-color: blue;
+}
+.skill-right {
+  width: 45%;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.myskills {
+  flex-basis: 5%;
+  display: flex;
+  flex-direction: column;
+}
+/* .a {
+  background-color: black;
+} */
+.per {
+  height: 10px;
+  width: 100%;
+  background-color: green;
+}
+.per1 {
+  border-right: 20px;
+  background-color: pink;
+  padding-left: 20px;
+}
+.full1 {
+  height: 100%;
+  width: 80%;
+  background-color: pink;
+}
+.full2 {
+  height: 100%;
+  width: 20%;
+  background-color: black;
+}
+.full3 {
+  height: 100%;
+  width: 60%;
+  background-color: grey;
+}
+.full4 {
+  height: 100%;
+  width: 80%;
+  background-color: purple;
+}
+.full5 {
+  height: 100%;
+  width: 70%;
+  background-color: yellow;
+}
+.full6 {
+  height: 100%;
+  width: 90%;
+  background-color: blue;
+}
+.full7 {
+  height: 100%;
+  width: 60%;
+  background-color: grey;
+}
+.skill-desc {
+  margin-top: 15%;
+  margin-left: 15%;
+}
+
+.span {
+  font-size: 20px;
+}
+
+.sk {
+  font-size: 48px;
+  color: yellow;
+}
+.skill-para {
+  height: 35%;
+  width: 70%;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+.certi {
+  width: 20%;
+  height: 15%;
+  background-color: aquamarine;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+/* project section */
+
+/* GENERAL ELEMENTS */
+
+.section {
+  padding: 15rem 3rem;
+  border-top: 1px solid #ddd;
+
+  transition: transform 1s, opacity 1s;
+}
+
+.slider {
+  max-width: 70rem;
+  height: 40rem;
+  margin: 0 auto;
+  position: relative;
+
+  /* IN THE END */
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 40rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* THIS creates the animation! */
+  transition: transform 1s;
+}
+
+.slide > img {
+  /* Only for images that have different size than slide */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider__btn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  border: none;
+  background: rgba(255, 255, 255, 0.7);
+  font-family: inherit;
+  color: #333;
+  border-radius: 50%;
+  height: 5.5rem;
+  width: 5.5rem;
+  font-size: 3.25rem;
+  cursor: pointer;
+}
+
+.slider__btn--left {
+  left: 6%;
+  transform: translate(-50%, -50%);
+}
+
+.slider__btn--right {
+  right: 6%;
+  transform: translate(50%, -50%);
+}
+
+.dots {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.dots__dot {
+  border: none;
+  background-color: #b9b9b9;
+  opacity: 0.7;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  margin-right: 1.75rem;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  /* Only necessary when overlying images */
+  /* box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.7); */
+}
+
+.dots__dot:last-child {
+  margin: 0;
+}
+
+.dots__dot--active {
+  /* background-color: #fff; */
+  background-color: #888;
+  opacity: 1;
+}
+
+.my-img {
+  position: absolute;
+  z-index: 10;
+  top: 5%;
+  height: 15%;
+  width: 15%;
+  border: none;
+  border-radius: 50%;
+}
+
+.img1 {
+  left: 35%;
+}
+.img2 {
+  right: 35%;
+}
+
+/* content-section */
+.contact-me {
+  height: 90vh;
+  width: 100%;
+  background-color: rgb(206, 219, 215);
+}
+.query {
+  height: 20%;
+  width: 100%;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  gap: 12%;
+}
+.msg {
+  height: 60%;
+  width: 100%;
+  font-size: 48px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details {
+  height: 40%;
+  width: 100%;
+  background-color: blanchedalmond;
+}
+.mail-sec {
+  width: 100;
+  height: 80%;
+  background-color: black;
+  display: flex;
+}
+.mail-icon {
+  width: 60%;
+  height: 100%;
+  background-color: aliceblue;
+}
+.mail-options {
+  width: 40%;
+  height: 100%;
+  background-color: rgb(188, 188, 203);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mail-pic {
+  height: 80%;
+  width: 100%;
+}
+.enter {
+  height: 10%;
+  width: 60%;
+  border-radius: 40px;
+  border: none;
+  position: relative;
+  resize: none;
+  padding: 10px;
+}
+/* .enter::placeholder {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+} */
+.spec-enter {
+  height: 20%;
+  border-radius: 15px;
+}
+.spec-enter::placeholder {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+.enter-btn {
+  height: 10%;
+  width: 30%;
+  background-color: beige;
+  border: none;
+  border-radius: 10px;
+  background-color: yellow;
+}
+
+/* foot-bar */
+.foot {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(102, 102, 184);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.social {
+  display: flex;
+  gap: 5px;
+}
+.soc {
+  width: 20px;
+  height: 20px;
+}
+.soc-name {
+  text-decoration: none;
+  color: black;
+}
+.soc-name:hover {
+  font-size: 1.1rem;
+  color: blue;
+}
