@@ -15,7 +15,7 @@
   height: 5rem;
   padding: 0 6rem;
   z-index: 100;
-  background-color: #31304d;
+  background-color: #3f3f3f;
   /* background-color: #b6bbc4; */
 }
 .nav-links {
@@ -31,7 +31,7 @@
   font-weight: 400;
   text-decoration: none;
   display: block;
-  color: #f0ece5;
+  color: #fdf9ee;
 }
 /* .header {
   padding: 0 3rem;
@@ -44,7 +44,9 @@
 .hero {
   width: 100%;
   height: 650px;
-  background-color: #b6bbc4;
+  background-color: #fcf8ed;
+  /* background-color: #fdf9f0; */
+  /* background-color: #618fca; */
   padding-top: 100px;
 }
 .intro {
@@ -59,7 +61,7 @@
 .about-me {
   width: 100%;
   height: 100vh;
-  background-color: #31304d;
+  background-color: #36a59e;
 }
 .upper-div {
   width: 100%;
@@ -69,16 +71,18 @@
   gap: 15px;
 }
 .vertical {
-  width: 5px;
+  width: 10px;
   height: 100px;
-  background-color: red;
+  background-color: #8fd6d6;
   margin-left: 30px;
   margin-top: 15px;
   border-radius: 100px;
 }
 .info {
-  font-size: 80px;
+  font-size: 70px;
   margin-top: 10px;
+  color: whitesmoke;
+  font-family: "Titillium Web", sans-serif;
 }
 .lower-div {
   display: flex;
@@ -89,7 +93,7 @@
   margin-right: 30px; */
 }
 .my-icon {
-  background-color: black;
+  background-color: #8fd6d6;
   padding: 5px;
   height: 450px;
   width: 300px;
@@ -99,6 +103,7 @@
 }
 .info1 {
   font-size: 32px;
+  color: #bbfbfb;
 }
 
 .info2 {
@@ -131,9 +136,11 @@
 .btn {
   height: 80px;
   width: 300px;
-  background-color: blue;
+  background-color: #ffe89c;
   margin-left: 50px;
   margin-top: 63px;
+  border: none;
+  box-shadow: 0 0 20px #36a59e;
 }
 .download-text {
   font-size: 24px;
@@ -141,8 +148,31 @@
 }
 
 /* eduction-section */
+
 .edu {
   position: relative;
+  background-color: #fcf8ed;
+}
+.edu-heading {
+  width: 100%;
+  height: 110px;
+  background-color: #fcf8ed;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  gap: 1%;
+}
+.vert-line {
+  width: 10px;
+  height: 80%;
+  background-color: #9e9995;
+  margin-left: 30px;
+  margin-top: 15px;
+  border-radius: 100px;
+}
+.edu-cont {
+  font-size: 48px;
+  font-family: "Titillium Web", sans-serif;
 }
 /* .edu-dates {
   width: 1px;
@@ -161,20 +191,20 @@
   /* // display: relative; */
   width: 40px;
   height: 40px;
-  background-color: white;
-  border: 2px solid black;
+  background-color: #fcf8ed;
+  border: 3px solid #36a59e;
   border-radius: 50%;
 }
 .line {
   width: 200px;
   height: 2px;
-  background-color: black;
+  background-color: #36a59e;
   margin-top: 20px;
 }
 .new_line {
   width: 50px;
   height: 2px;
-  background-color: black;
+  background-color: #36a59e;
   margin-top: 20px;
 }
 /* .edu-info {
@@ -185,7 +215,7 @@
 .edu-dates {
   width: 300px;
   height: 700px;
-  background-color: pink;
+  background-color: #fcf8ed;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -194,16 +224,21 @@
 }
 .study-info {
   height: 100px;
-  width: 150px;
-  background-color: grey;
+  width: 180px;
+  background-color: #ffe89c;
+  font-size: 140%;
+  z-index: 1;
+  padding: 7% 6%;
+  font-weight: 600;
 }
 .tring {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: grey;
-  right: 65px;
-  rotate: 45deg;
+  background-color: #ffe89c;
+  right: 50px;
+  rotate: 135deg;
+  /* z-index: -2; */
   /* border-top-right-radius: 100px;
   border-bottom-right-radius: 100px; */
   /* position: relative; */
@@ -226,15 +261,17 @@
 .edu-info {
   width: 1000px;
   height: 700px;
-  background-color: cadetblue;
+  /* background-color: #b2caee; */
+  background-color: #fcf8ed;
   position: absolute;
   right: 50px;
   top: 0;
+  padding-top: 3%;
 }
 .educ {
   width: 100%;
   height: 233px;
-  background-color: azure;
+  /* background-color: azure; */
   display: flex;
   flex-direction: column;
   /* justify-content: space-evenly; */
@@ -242,8 +279,9 @@
 .time {
   height: 40px;
   width: 100px;
-  background-color: blueviolet;
+  background-color: #36a59e;
   display: flex;
+  color: #bbfbfb;
   justify-content: center;
   align-items: center;
   margin-top: 2%;
@@ -251,7 +289,7 @@
 .edu-name {
   height: 35px;
   width: 150px;
-  background-color: green;
+  /* background-color: green; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -265,7 +303,7 @@
 .skill-sec {
   width: 100%;
   height: 100vh;
-  background-color: cadetblue;
+  background-color: #fcf8ed;
 }
 .skill-info {
   width: 100%;
@@ -274,8 +312,20 @@
   font-weight: 400;
   font-size: 48px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 10px;
+}
+.skill-info p {
+  font-family: "Titillium Web", sans-serif;
+  margin-top: 1.2%;
+  font-size: 4rem;
+}
+.vert {
+  width: 0.5%;
+  height: 75%;
+  background-color: rgb(158, 153, 149);
+  margin-left: 1.5%;
+  margin-top: 1%;
+  border-radius: 1000px;
 }
 .skill-set {
   width: 100%;
@@ -285,14 +335,15 @@
 }
 .skill-left {
   width: 55%;
-  background-color: blue;
+  background-color: #fcf8ed;
 }
 .skill-right {
   width: 45%;
-  background-color: blueviolet;
+  background-color: #fcf8ed;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  padding-right: 5%;
 }
 .myskills {
   flex-basis: 5%;
@@ -305,47 +356,54 @@
 .per {
   height: 10px;
   width: 100%;
-  background-color: green;
+  background-color: rgb(143, 214, 214);
+  border-radius: 20px;
 }
 .per1 {
   border-right: 20px;
   background-color: pink;
   padding-left: 20px;
 }
+.fill {
+  background-color: rgb(54, 165, 158);
+  /* border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px; */
+  border-radius: 20px;
+}
 .full1 {
   height: 100%;
   width: 80%;
-  background-color: pink;
 }
+
 .full2 {
   height: 100%;
   width: 20%;
-  background-color: black;
+  background-color: rgb(54, 165, 158);
 }
 .full3 {
   height: 100%;
   width: 60%;
-  background-color: grey;
+  background-color: rgb(54, 165, 158);
 }
 .full4 {
   height: 100%;
   width: 80%;
-  background-color: purple;
+  background-color: rgb(54, 165, 158);
 }
 .full5 {
   height: 100%;
   width: 70%;
-  background-color: yellow;
+  background-color: rgb(54, 165, 158);
 }
 .full6 {
   height: 100%;
   width: 90%;
-  background-color: blue;
+  background-color: rgb(54, 165, 158);
 }
 .full7 {
   height: 100%;
   width: 60%;
-  background-color: grey;
+  background-color: rgb(54, 165, 158);
 }
 .skill-desc {
   margin-top: 15%;
@@ -367,10 +425,12 @@
   margin-left: 15%;
 }
 .certi {
-  width: 20%;
-  height: 15%;
-  background-color: aquamarine;
-  border-radius: 10%;
+  width: 30%;
+  height: 14%;
+  background-color: rgb(54, 165, 158);
+  /* background-color: rgb(255, 232, 156); */
+  border: none;
+  border-radius: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -498,49 +558,55 @@
 .contact-me {
   height: 90vh;
   width: 100%;
-  background-color: rgb(206, 219, 215);
+  background-color: #fcf8ed;
 }
 .query {
   height: 20%;
   width: 100%;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   display: flex;
-  flex-direction: column;
-  gap: 12%;
+  flex-direction: row;
+  gap: 1%;
 }
 .msg {
   height: 60%;
   width: 100%;
   font-size: 48px;
-  background-color: aquamarine;
-  display: flex;
+  /* background-color: aquamarine; */
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  margin-top: 1%;
 }
 .details {
   height: 40%;
   width: 100%;
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
 }
 .mail-sec {
   width: 100;
   height: 80%;
-  background-color: black;
+  /* background-color: black; */
   display: flex;
 }
 .mail-icon {
   width: 60%;
   height: 100%;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .mail-options {
   width: 40%;
   height: 100%;
-  background-color: rgb(188, 188, 203);
+  /* background-color: rgb(188, 188, 203); */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  margin-right: 10%;
 }
 .mail-pic {
   height: 80%;
@@ -550,10 +616,11 @@
   height: 10%;
   width: 60%;
   border-radius: 40px;
-  border: none;
+  border: 2px solid rgb(54, 165, 158);
   position: relative;
   resize: none;
   padding: 10px;
+  /* border-radius: 1px solid black; */
 }
 /* .enter::placeholder {
   position: absolute;
@@ -575,14 +642,22 @@
   background-color: beige;
   border: none;
   border-radius: 10px;
-  background-color: yellow;
+  background-color: rgb(54, 165, 158);
+  border-radius: 40px;
+}
+.ver {
+  width: 0.8%;
+  height: 80%;
+  background-color: #3f3f3f;
+  margin-left: 1%;
+  border-radius: 40px;
 }
 
 /* foot-bar */
 .foot {
   width: 100%;
   height: 80px;
-  background-color: rgb(102, 102, 184);
+  background-color: rgb(143, 214, 214);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -602,4 +677,6 @@
 .soc-name:hover {
   font-size: 1.1rem;
   color: blue;
+}
+.header {
 }
