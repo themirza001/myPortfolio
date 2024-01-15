@@ -7,6 +7,10 @@
     font-size:62.5%;
     
 }box-s */
+body {
+  height: 100%;
+  width: 100%;
+}
 .nav {
   display: flex;
   justify-content: space-between;
@@ -22,8 +26,9 @@
   display: flex;
   align-items: center;
   list-style: none;
-  /* justify-content: space-around; */
-  gap: 30px;
+  width: 40%;
+  justify-content: space-between;
+  /* gap:; */
 }
 .nav-link:link,
 .nav-link:visited {
@@ -43,7 +48,7 @@
 /* hero section */
 .hero {
   width: 100%;
-  height: 650px;
+  height: 41rem;
   background-color: #fcf8ed;
   /* background-color: #fdf9f0; */
   /* background-color: #618fca; */
@@ -51,11 +56,11 @@
 }
 .intro {
   font-size: 120px;
-  margin-left: 900px;
+  margin-left: 60%;
   font-family: "Poppins", sans-serif;
 }
 .hi {
-  margin-left: 1050px;
+  margin-left: 70%;
 }
 /* about me */
 .about-me {
